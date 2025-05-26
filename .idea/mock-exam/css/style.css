@@ -1,0 +1,137 @@
+:root {
+    --background: white;
+    --primary-color: black;
+    --secondary-color: #737373;
+    --primary-font: "Poppins", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1585px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.header {
+
+    padding: 20px 40px;
+
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    gap: 25px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #DF590D;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+
+.left__content {
+    width: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left__content h1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.left__content .underline {
+    text-decoration: underline;
+}
+
+.left__content p {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 60px;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn.orange {
+    background-color: #DF590D;
+    color: white;
+}
+
+.btn.black {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.photo-image {
+    width: 40%;
+    height: 400px;
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
